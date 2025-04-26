@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Typing Game!</h1>
+    <p>Practice you typing skills with short web development facts. Click <b>Start</b> to begin!</p>
+    <p id="quote"></p>
+    <p id="message"></p>
+    <div class="inputAndStart">
+       <input type="text" aria-label="current word" id="typed-value" /> <!-- aria-label provides a hidden text description for screen readers when no visible label exists. It improves accessibility without adding a visible <label>.
+
+        Prefer <label for="id"> when possible, but use aria-label for minimal or custom designs.
+        
+       -->
+       <button type="button" id="start">Start</button> <!--<button type="button"> means it is a normal button and you have to bind click event to it to do some action. PS the but elements has a default type of submit-->
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

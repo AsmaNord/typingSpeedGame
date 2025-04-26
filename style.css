@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui,sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: darkslategray;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+ 
+h1 {
+    margin-bottom: 15px;
+    font-size: 45px;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: greenyellow;
+}
+
+p {
+    margin-bottom: 20px;
+    font-family: system-ui;
+    color: lightblue;
+}
+
+.inputAndStart {
+    margin-bottom: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#typed-value{
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#start {
+    width: 5rem;
+    margin-top: 15px;
+    font-weight: 600;
+    background-color: rgb(33, 209, 240);
+    cursor: pointer;
+    border: none;
+    font-size: 18px;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+#start:hover {
+    box-shadow: 0 0 10px 0 rgb(0, 0, 0);
+}
+
+#quote {
+    height: fit-content;
+    width: fit-content;
+    padding:8px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.7) 0px 18px 36px -18px inset;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    display: none;
+    border-radius: 5px;
+}
+
+#message {
+    background-color: lightblue;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+    display: none;
+}
+
+/* inside style.css */
+.highlight {
+    background-color: greenyellow;
+    color: black;
+    border-radius: 5px;
+    padding: 3px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+  
+.error {
+    background-color: lightcoral;
+    border: red;
+}
