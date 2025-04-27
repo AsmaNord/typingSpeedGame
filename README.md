@@ -10,6 +10,9 @@ A web-based typing game that helps users practice their typing skills while lear
 - Timer to track typing speed
 - Retro-style gaming interface
 
+## Demo
+https://asmanord.github.io/typingSpeedGame/
+
 ## Technologies Used
 
 - HTML5
